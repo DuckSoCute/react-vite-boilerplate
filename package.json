@@ -1,8 +1,14 @@
 {
   "name": "react-vite-boilerplate",
-  "private": true,
-  "version": "0.2.0",
+  "description": "A simple boilerplate to use React with Vite",
+  "version": "0.3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DuckSoCute/react-vite-boilerplate.git"
+  },
   "type": "module",
+  "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -15,7 +21,7 @@
       "eslint",
       "prettier --write"
     ],
-    "*.{.html,css,json}": [
+    "*.{html,css,json}": [
       "prettier --write"
     ]
   },
