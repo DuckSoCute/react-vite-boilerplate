@@ -16,11 +16,13 @@ cd your-project-name
 Then install dependencies: <br/>
 
 If you are using NPM:
+
 ```bash
 npm install
 ```
 
 Or you are using YARN:
+
 ```bash
 yarn
 ```
@@ -58,6 +60,5 @@ yarn build
 ```
 
 ## License
-MIT © [DuckSoCute](https://github.com/DuckSoCute)
 
-<footer align="center">Made by DuckSoCute with :heart:. Happy hacking!</footer>
+MIT © [DuckSoCute](https://github.com/DuckSoCute)
