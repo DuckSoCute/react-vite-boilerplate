@@ -19,26 +19,25 @@
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint",
-      "prettier --write"
+      "eslint --ignore-path .gitignore",
+      "prettier --write --ignore-path .gitignore"
     ],
     "*.{html,css,json}": [
-      "prettier --write"
+      "prettier --write --ignore-path .gitignore"
     ]
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.46.0",
-    "@typescript-eslint/parser": "^5.46.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.0",
+    "@typescript-eslint/parser": "^5.48.0",
     "@vitejs/plugin-react": "^3.0.0",
-    "eslint": "^8.29.0",
-    "eslint-plugin-react": "^7.31.0",
+    "eslint": "^8.32.0",
+    "eslint-plugin-react": "^7.32.0",
     "husky": "^8.0.0",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.0",

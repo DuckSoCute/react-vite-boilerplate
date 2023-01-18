@@ -1,8 +1,8 @@
 <h1 align="center">React Vite Boilerplate</h1>
 <p align="center">A simple boilerplate to use React with Vite</p>
 
-This project currently owned and maintained by [DuckSoCute](https://github.com/DuckSoCute) <br/>
-For any issues, [open an issue](https://github.com/DuckSoCute/react-vite-boilerplate/issues/new) =))
+This project is currently owned and maintained by [DuckSoCute](https://github.com/DuckSoCute) <br/>
+If you have any problem, [open an issue](https://github.com/DuckSoCute/react-vite-boilerplate/issues/new)
 
 ## Install
 
